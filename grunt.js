@@ -4,8 +4,12 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     meta: {
-      banner: '/*! comment.aculo.us - v0.1.0 - 2012-04-05\n' +
-        '* Copyright (c) 2012 "Cowboy" Ben Alman; Licensed MIT */'
+      version: '0.1.0',
+      banner: '/*! comment.aculo.us - v<%= meta.version %> - ' +
+        '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
+        '* https://github.com/cowboy/comment.aculo.us\n' +
+        '* Copyright (c) <%= grunt.template.today("yyyy") %> ' +
+        '"Cowboy" Ben Alman; Licensed MIT */'
     },
     lint: {
       files: ['grunt.js', 'src/**/*.js']

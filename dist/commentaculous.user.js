@@ -1,4 +1,5 @@
 /*! comment.aculo.us - v0.1.0 - 2012-04-05
+* https://github.com/cowboy/comment.aculo.us
 * Copyright (c) 2012 "Cowboy" Ben Alman; Licensed MIT */
 
 // ==UserScript==
