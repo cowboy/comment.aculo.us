@@ -7,5 +7,5 @@
 // ==/UserScript==
 
 var elem = document.createElement("script");
-elem.src = "https://raw.github.com/cowboy/comment.aculo.us/master/commentaculous.js";
+elem.src = "https://raw.github.com/cowboy/comment.aculo.us/master/dist/commentaculous.js";
 document.body.appendChild(elem);

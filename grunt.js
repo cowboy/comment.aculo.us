@@ -22,12 +22,6 @@ module.exports = function(grunt) {
         dest: 'dist/commentaculous.js'
       }
     },
-    // min: {
-    //   dist: {
-    //     src: ['<banner>', '<config:concat.dist.dest>'],
-    //     dest: 'dist/FILE_NAME.min.js'
-    //   }
-    // },
     watch: {
       files: '<config:lint.files>',
       tasks: 'lint'
