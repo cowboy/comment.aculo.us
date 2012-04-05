@@ -5,7 +5,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     meta: {
       banner: '/*! comment.aculo.us - v0.1.0 - 2012-04-05\n' +
-        '* Copyright (c) 2012 "Cowboy" Ben Alman; Licensed MIT %> */'
+        '* Copyright (c) 2012 "Cowboy" Ben Alman; Licensed MIT */'
     },
     lint: {
       files: ['grunt.js', 'src/**/*.js']

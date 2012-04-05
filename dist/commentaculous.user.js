@@ -1,5 +1,5 @@
 /*! comment.aculo.us - v0.1.0 - 2012-04-05
-* Copyright (c) 2012 "Cowboy" Ben Alman; Licensed MIT %> */
+* Copyright (c) 2012 "Cowboy" Ben Alman; Licensed MIT */
 
 // ==UserScript==
 // @match http://mir.aculo.us/*

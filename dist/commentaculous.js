@@ -1,3 +1,3 @@
 /*! comment.aculo.us - v0.1.0 - 2012-04-05
-* Copyright (c) 2012 "Cowboy" Ben Alman; Licensed MIT %> */
+* Copyright (c) 2012 "Cowboy" Ben Alman; Licensed MIT */
 var disqus_shortname;(function(a,b,c,d,e,f,g,h){if(!(e=a.jQuery)||c>e.fn.jquery||d(e))f=b.createElement("script"),f.type="text/javascript",f.src="http://ajax.googleapis.com/ajax/libs/jquery/"+c+"/jquery.min.js",f.onload=f.onreadystatechange=function(){!g&&(!(h=this.readyState)||h==="loaded"||h==="complete")&&(d((e=a.jQuery).noConflict(1),g=1),e(f).remove())},b.documentElement.childNodes[0].appendChild(f)})(window,document,"1.7",function(a,b){disqus_shortname="commentaculous",a("h1").last().closest("div").append('<div id="disqus_thread"/>'),a.getScript("http://"+disqus_shortname+".disqus.com/embed.js")})
