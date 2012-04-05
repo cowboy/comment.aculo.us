@@ -2,7 +2,7 @@
 * Copyright (c) 2012 "Cowboy" Ben Alman; Licensed MIT */
 
 // ==UserScript==
-// @match http://mir.aculo.us/*
+// @match http://mir.aculo.us/*/*/*/*
 // @run-at document-end
 // ==/UserScript==
 
